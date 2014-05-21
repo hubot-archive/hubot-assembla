@@ -29,6 +29,11 @@
 #   hubot space <space> - look up a space by id or wiki_name [assembla]
 #   ticket #<ticket> - show ticket on default space [assembla]
 #
+# Notes:
+#   None
+#
+# Author:
+#   benwtr
 
 SPACE = process.env.HUBOT_ASSEMBLA_SPACE
 SSH_DEPLOY_ACTION_ID = process.env.HUBOT_ASSEMBLA_DEPLOY_ACTION_ID
