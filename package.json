@@ -1,0 +1,36 @@
+{
+  "name": "hubot-assembla",
+  "description": "Interact with the Assembla API",
+  "version": "0.0.1",
+  "author": "Ben P <ben@megatron.org>",
+  "license": "MIT",
+
+  "keywords": ["hubot","hubot-scripts","assembla","deploy"],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/benwtr/hubot-assembla.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/benwtr/hubot-assembla/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "matchdep": "~0.1.2"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
