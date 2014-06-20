@@ -1,7 +1,7 @@
 {
   "name": "hubot-assembla",
   "description": "Interact with the Assembla API",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Ben P <ben@megatron.org>",
   "license": "MIT",
 
@@ -9,11 +9,11 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/benwtr/hubot-assembla.git"
+    "url": "git://github.com/hubot-scripts/hubot-assembla.git"
   },
 
   "bugs": {
-    "url": "https://github.com/benwtr/hubot-assembla/issues"
+    "url": "https://github.com/hubot-scripts/hubot-assembla/issues"
   },
 
   "dependencies": {
