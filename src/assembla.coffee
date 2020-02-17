@@ -154,6 +154,10 @@ run_ssh_action = (msg, action, robot, is_deploy = false) ->
 
 
 module.exports = (robot) ->
+  # makes assembla api public to other plugins
+  robot.assembla =
+    api_call: api_call
+    whoami: assembla_whoami
 
   robot.respond /assembla user (.*)/i, (msg) ->
     api_call msg, "users/#{msg.match[1]}", (data) ->
