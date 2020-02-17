@@ -50,8 +50,8 @@ api_call = (msg, call, cb, params="", action="get", data_body="") ->
     .post('') (err, res, body) ->
       response = JSON.parse(body)
       if response.error == "invalid_grant"
-        msg.send "Looks like you need to authenticate. Please generate a PIN code here: https://api.assembla.com/authorization?client_id=#{api_app_id}&response_type=pin_code"
-        msg.send "Then, tell me your pin. \"#{msg.robot.name} assembla pin <your_pin_here>\""
+        msg.send "Parece que você precisa se autenticar. Por favor gere um código PIN aqui: https://api.assembla.com/authorization?client_id=#{api_app_id}&response_type=pin_code"
+        msg.send "Então me conte seu pin. \"#{msg.robot.name} assembla pin <your_pin_here>\""
       else
         access_token = response['access_token']
         switch action
